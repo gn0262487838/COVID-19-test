@@ -2,7 +2,10 @@
 .venv/*
 media/*
 
+
 app/__pycache__/*
+app/Models/*
+
 project/__pycache__/*
 
 db.sqlite3
