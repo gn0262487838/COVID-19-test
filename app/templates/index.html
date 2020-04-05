@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>COVID 19 Test INTERFACE</title>
+</head>
+<body>
+  <div>
+    <h1></h1>
+    <form action="/app/upload/" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <label for="user_image">測試圖片:</label><br><br>
+      <input type="file" name="img"><br><br>
+      <input type="submit" value="上傳並檢測"><br><br>
+    </form>
+  </div>
+</body>
