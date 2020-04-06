@@ -1,4 +1,4 @@
-# COVID-19 Only Academic Use
+# COVID-19 Only Exercise Use
 
 ## Install on Ubuntu(AWS)
 
