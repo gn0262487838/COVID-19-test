@@ -26,7 +26,7 @@ def upload(request):
 
         data = UserImage(user_image=user_image)
 
-        if not os.path.splitext(str(data.user_image.url))[-1] in [".jpeg", "jpg", ".png"]:
+        if not os.path.splitext(str(data.user_image.url))[-1].lower() in [".jpeg", ".jpg", ".png"]:
             return render(request, "error.html")
 
         data.save()
