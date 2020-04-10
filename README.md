@@ -28,4 +28,12 @@
 
 ### step 13 python manage.py runserver ip:port --insecure
 
+-----------------------------------------------------------
 
+#### 首頁
+
+![](https://raw.githubusercontent.com/gn0262487838/COVID-19-test/master/sample_page_1.png)
+
+#### contact
+
+![](https://raw.githubusercontent.com/gn0262487838/COVID-19-test/master/sample_page_2.png)
