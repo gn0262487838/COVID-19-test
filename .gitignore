@@ -1,11 +1,13 @@
 
-.venv/*
+.venv/
 media/*
 
 
-app/__pycache__/*
+app/__pycache__/
 app/Models/*
 
-project/__pycache__/*
+project/__pycache__/
+
+covid19_nn/__pycache__/
 
 db.sqlite3

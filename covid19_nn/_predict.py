@@ -1,7 +1,16 @@
+# /usr/bin/python3.6
+# -*- coding:utf-8 -*-
+# Author: HU REN BAO
+# History:
+#        1. first create on 20200214
+#
+
 import os
 import numpy as np
 from tensorflow.keras.models import model_from_json
 from tensorflow.keras.preprocessing import image
+
+
 
 def predictCovid19(dataPath, modelName=None):
 

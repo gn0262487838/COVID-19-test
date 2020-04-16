@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from html import unescape
 from .models import UserImage
-from .covid_19_models import predictCovid19
+from covid19_nn._predict import predictCovid19
 import os
 
 
