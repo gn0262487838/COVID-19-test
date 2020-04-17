@@ -1,6 +1,6 @@
 # COVID-19 Only Exercise Use
 
-## Install on Ubuntu(AWS)
+## Install on Ubuntu(AWS), version=18.04
 
 ### step 1 git clone
 
@@ -22,11 +22,13 @@
 
 ### step 10 cd COVID-19-test/app/ ; mkdir Models  *remember upload your model
 
-### step 11 python manage.py makemigrations
+### step 11 cd COVID-19-test/ ; mkdir media; cd media; mkdir images; cd ../../;
 
-### step 12 python manage.py migrate
+### step 12 python manage.py makemigrations
 
-### step 13 python manage.py runserver ip:port --insecure
+### step 13 python manage.py migrate
+
+### step 14 python manage.py runserver ip:port --insecure
 
 -----------------------------------------------------------
 
